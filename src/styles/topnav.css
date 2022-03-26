@@ -1,0 +1,13 @@
+div#nav-container{
+    width: 100vw;
+}
+
+nav#navbar{
+    width: 100vw;
+    border-bottom: 2px solid black;
+}
+
+ul#nav-links{
+    display: flex;
+    justify-content: space-evenly;
+}
