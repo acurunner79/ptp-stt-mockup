@@ -1,13 +1,38 @@
 div#nav-container{
     width: 100vw;
+    margin: 0 auto;
+    background-color: rgb(67, 121, 185);
 }
 
 nav#navbar{
+    height: 100px;
     width: 100vw;
-    border-bottom: 2px solid black;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border-bottom: 2px solid black; */
+}
+
+img#nav-logo{
+    width: 268px;
+    height: 46px;
+    padding-right: 10px;
 }
 
 ul#nav-links{
+    margin:  0 auto;
     display: flex;
     justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+li.li-nav-links{
+    /* padding: 35px 0; */
+    margin: auto 30px;
+    text-decoration: none !important;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
 }
